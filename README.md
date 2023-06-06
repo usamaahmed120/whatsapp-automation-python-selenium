@@ -15,7 +15,7 @@ This repository contains a Python script that automates the process of sending m
 Before running the script, ensure you have the following:
 
 - Python installed on your system
-- Selenium Python library (`selenium`) installed
+- Selenium Python library `selenium` installed
 - Microsoft Edge web browser installed
 - Microsoft Edge WebDriver executable compatible with your Microsoft Edge browser version
 
@@ -23,12 +23,14 @@ Before running the script, ensure you have the following:
 
 1. Clone this repository to your local machine or download the script file.
 2. Install the required dependencies by running the following command:
+
    ```
    pip install selenium
    ```
 3. Download the appropriate Microsoft Edge WebDriver executable for your Microsoft Edge browser version from the [Microsoft Edge WebDriver downloads page](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
 4. Place the downloaded Microsoft Edge WebDriver executable in the same directory as the script file.
 5. Run the script using the following command:
+
    ```
    python whatsapp_automation.py
    ```
